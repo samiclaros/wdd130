@@ -72,5 +72,5 @@ footer {
 }
 
 .box li{
-    margin-left: 1rem;
+     margin-left: 1rem; /* I added this because I wanted a little indent of the left in the links */
 }
