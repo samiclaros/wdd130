@@ -193,6 +193,7 @@ footer {
     display: flex;
     text-decoration: none;
     grid-column: 3 / 4;
+    justify-content: center;
     align-items: center;
 }
 
