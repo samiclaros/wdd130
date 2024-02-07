@@ -46,10 +46,6 @@ label {
     padding-bottom: .8rem;
 }
 
-.number, label {
-    flex-direction: row; /* I just add this recenty */
-}
-
 input, select, textarea {
     padding: .5rem;
     font-size: 1.1rem;
