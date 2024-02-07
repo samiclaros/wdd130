@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'roboto mono';
+    font-size: 17px;
+    padding: 1.5rem;
+    margin: 0;
+    color: #333;
+    background-color: #fff;
+}
+
+header{
+    margin: 0 auto;
+    width: 650px;
+}
+
+h1 {
+    font-size: 30px;
+    color: navy;
+    margin: 1rem;
+}
+
+form {
+    width: 700px;
+    margin: 0 auto;
+    padding: 1.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #eee;
+    display: flex;
+    flex-direction: column; /* This is what Brother Raplh said */
+}
+
+label, input, button, select, textarea {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+label {
+    padding-top: .5rem;
+    padding-bottom: .8rem;
+}
+
+.number, label {
+    flex-direction: row; /* I just add this recenty */
+}
+
+input, select, textarea {
+    padding: .5rem;
+    font-size: 1.1rem;
+}
+
+button {
+    background-color: navy;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    border-radius: .5rem;
+    padding: 1rem;
+    font-family: sans-serif;
+    width: 100%;
+    margin-top: 2.5rem;
+}
+
+button:hover {
+    background-color: rgb(101, 194, 25);
+    color: #fff;
+}
+
+.number {
+    font-size: 1.25em;
+    color: rgb(27, 13, 121);
+    font-weight: 700;
+}
