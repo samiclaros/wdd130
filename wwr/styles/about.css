@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+    --primary-color: #ffffff;
+    --secondary-color: #131515;
+    --accent1-color: #206459;
+    --accent2-color: #7DE2D1;
+
+    --heading-font: 'Open Sans', sans;
+    --paragraph-font: 'Open Sans', sans;
+
+    --nav-background-color: #206459;
+    --nav-link-color: #ffffff;
+    --nav-hover-link-color: #206459;
+    --nav-hover-background-color: #ffffff;
+  }
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 2000px;
+    padding: 25px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--accent1-color);
+}
+
+p {
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+}
+
+/* Header */
+
+header {
+    display: grid;
+    grid-template-columns: 400px 1fr;
+	max-width: 2000px;
+    background-color: var(--accent1-color);
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+header img {
+    grid-column: 1 / 2;
+    height: auto;
+    justify-self: center;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.top-nav a{
+    color: var(--nav-link-color);
+    text-decoration: none;
+    font-size: 25px;
+    grid-column: 2 / 3;
+    padding: 1em;
+}
+
+.top-nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+/* Header */ 
+
+/* ADRESS AND MAP */
+
+.information {
+    display: grid;
+    grid-template-columns: 250px 350px 135px 135px 400px 1fr;
+    background-color: rgb(32, 100, 89, .8);
+    padding: 2rem;
+}
+
+.title {
+    color: var(--primary-color);
+    padding: .5rem;
+    grid-column: 1 / 7;
+    text-align: center;
+}
+
+h2, .text, p {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    text-align: left;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 1.5rem;
+    color: var(--primary-color);
+}
+
+.text, p  {
+    text-align: left;
+    margin-top: 2.5rem;
+    margin-left: .5rem;
+    grid-column: 2 / 4;
+    font-size: 18px;
+} 
+
+.map {
+    grid-column: 5 / 7;
+    align-items: align;
+    justify-items: left;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+/* OUR STAFF */ 
+
+.staff {
+    background-color: rgb(32, 100, 89, .8);
+    max-width: 2000px;
+    padding: 3rem;
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+.subtitle {
+    text-align: center;
+    grid-column: 1/5;
+    grid-row: 1;
+    color: var(--primary-color);
+    margin-bottom: 3rem;
+}
+
+fig1 {
+    grid-column: 1 / 2;
+    grid-row: 2;
+}
+
+fig2 {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+fig3 {
+    grid-column: 4;
+    grid-row: 2;
+}
+
+fig4 {
+    grid-column: 4;
+    grid-row: 2;
+}
+
+.caption, figcaption {
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    margin-top: .5rem;
+}
+
+/* FORM */ 
+
+.bottom {
+    display: grid;
+    margin-top: 2rem;
+    background-color: rgb(32, 100, 89, .8);
+    padding: 4rem;
+    grid-template-columns: 700px 1fr;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.phrase, .call-to-action {
+    color: var(--primary-color);
+    font-family: ;
+    grid-column: 1 / 2;
+    font-size: 30px;
+    max-width: 500px ;
+    text-align: center
+
+}
+
+form {
+    width: 500px;
+    margin: 0 auto;
+    padding: 1.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #eee;
+    display: flex;
+    flex-direction: column; /* This is what Brother Raplh said */
+}
+
+/* FOOTER */
+
+footer {
+    display: grid;
+    padding: 1rem;
+    background-color: var(--nav-background-color);
+    margin-top: 2.5rem;
+    grid-template-columns: 1fr 1fr 400px;
+}
+
+.sociallinks {
+    display: flex;
+    text-decoration: none;
+    grid-column: 3 / 4;
+    justify-content: center;
+    align-items: center;
+}
+
+.sociallinks a{
+    margin-left: .8rem;
+    margin-right: .8rem;
+}
+
+footer p {
+    grid-column: 2 / 3 ;
+    text-align: center;
+    color: var(--primary-color);
+}
