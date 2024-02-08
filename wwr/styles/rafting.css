@@ -181,7 +181,7 @@ article p {
 
 .information {
     display: grid;
-    grid-template-columns: 250px 350px 135px 135px 400px 1fr;
+    grid-template-columns: 250px 350px 135px 120px 400px 1fr;
     background-color: rgb(32, 100, 89, .8);
     padding: 2rem;
 }
