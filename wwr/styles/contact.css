@@ -103,7 +103,6 @@ h2, .text, .info {
 
 .map {
     grid-column: 5 / 7;
-    align-items: align;
     justify-items: left;
     margin-top: 1rem;
     margin-bottom: 2rem;
@@ -151,7 +150,7 @@ fig4 {
     grid-row: 2;
 }
 
-.caption, figcaption {
+figcaption {
     color: #fff;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 22px;
