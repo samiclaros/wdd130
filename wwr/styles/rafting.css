@@ -193,7 +193,7 @@ article p {
     text-align: center;
 }
 
-h2, .text, .info {
+h2, .text, address {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     text-align: left;
@@ -203,13 +203,19 @@ h2, .text, .info {
     color: var(--primary-color);
 }
 
-.text, .info  {
+.text, address  {
     text-align: left;
     margin-top: 2.5rem;
     margin-left: .5rem;
     grid-column: 2 / 4;
     font-size: 18px;
 } 
+
+address, a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-style: normal;
+}
 
 .map {
     grid-column: 5 / 7;
