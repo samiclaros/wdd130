@@ -178,7 +178,7 @@ fig4 {
 
 .phrase, .call-to-action {
     color: var(--primary-color);
-    font-family: ;
+    /* font-family: ; */
     grid-column: 1 / 2;
     font-size: 30px;
     max-width: 500px ;
