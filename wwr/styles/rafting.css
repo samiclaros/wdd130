@@ -372,12 +372,14 @@ input[type="radio"] {
     display: grid;
     padding: 1rem;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 .description-left {
     grid-column: 1 / 2;
-    grid-row: 1 / 2;
     font-size: 25px;
     padding: 2rem;
     text-align: center;
@@ -403,6 +405,7 @@ input[type="radio"] {
 .duration-right {
     color: var(--accent1-color);
     font-size: 20px;
+    margin-top: .5rem;
 }
 
 .route-left1 img {
@@ -416,7 +419,7 @@ input[type="radio"] {
 
 .description-right1 {
     grid-column: 2 / 3;
-    grid-row: 2 / 3;
+    grid-row: 2;
     font-size: 25px;
     padding: 2rem;
     text-align: center;
@@ -445,6 +448,8 @@ input[type="radio"] {
     color: var(--accent1-color);
     text-align: center;
     font-size: 20px;
+    display: block;
+    margin-top: .5rem;
 }
 
 .trips-button-container {
@@ -462,6 +467,7 @@ input[type="radio"] {
     font-family: sans-serif;
     width: 100%; 
     grid-column: 3 / 5;
+    text-align: center;
 }
 
 .link-to-contact-us:hover {
