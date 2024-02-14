@@ -356,46 +356,6 @@ input[type="radio"] {
     color: var(--secondary-color);
 }
 
-/* FOOTER */
-
-footer {
-    display: grid;
-    padding: 1.5rem;
-    background-color: var(--nav-background-color);
-    margin-top: 2.5rem;
-    grid-template-columns: 300px 1fr 400px;
-}
-
-.sociallinks {
-    display: flex;
-    text-decoration: none;
-    grid-column: 3 / 4;
-    justify-content: center;
-    align-items: center;
-}
-
-.sociallinks a{
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-}
-
-.wireframe {
-    display: grid;
-    grid-column: 1 / 2;
-    grid-row: 1;
-    text-align: center;
-    align-items: center;
-}
-
-.copyright {
-    grid-column: 2 / 3 ;
-    grid-row: 1;
-    text-align: center;
-    justify-items: center;
-    color: var(--primary-color);
-    font-size: 20px;
-}
-
 /* TRIPS WEBSITE */
 
 /* TITLE */
@@ -412,10 +372,12 @@ footer {
     display: grid;
     padding: 1rem;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
 .description-left {
     grid-column: 1 / 2;
+    grid-row: 1 / 2;
     font-size: 25px;
     padding: 2rem;
     text-align: center;
@@ -435,10 +397,12 @@ footer {
 .caption-trips, .duration-right{
     color: black;
     text-align: center;
+    display: block;
 }
 
 .duration-right {
     color: var(--accent1-color);
+    font-size: 20px;
 }
 
 .route-left1 img {
@@ -452,7 +416,7 @@ footer {
 
 .description-right1 {
     grid-column: 2 / 3;
-    grid-row: 2;
+    grid-row: 2 / 3;
     font-size: 25px;
     padding: 2rem;
     text-align: center;
@@ -480,6 +444,7 @@ footer {
 .duration-left{
     color: var(--accent1-color);
     text-align: center;
+    font-size: 20px;
 }
 
 .trips-button-container {
@@ -503,4 +468,64 @@ footer {
     background-color: var(--primary-color);
     color: var(--secondary-color);
 }
+
+/* .first-line {
+    width: auto;
+    height: 1400px;
+    rotate: 90deg;
+    grid-column: 1 / 3;
+    grid-row: 2;
+    position: absolute;
+    justify-self: center;
+    top: 148px;
+} */
+
 /* TRIPS WEBSITE */
+
+/* FOOTER */
+
+footer {
+    display: grid;
+    padding: 1.5rem;
+    background-color: var(--nav-background-color);
+    margin-top: 2.5rem;
+    grid-template-columns: 300px 1fr 400px;
+}
+
+.sociallinks {
+    display: flex;
+    text-decoration: none;
+    grid-column: 3 / 4;
+    justify-content: center;
+    align-items: center;
+}
+
+.sociallinks a{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.wireframe05 { /* Only will added for the Wireframe photo */
+    display: grid;
+    grid-column: 1 / 2;
+    grid-row: 1;
+    text-align: center;
+    align-items: center;
+}
+
+.wireframe06 { /* Only will added for the Wireframe photo */
+    display: grid;
+    grid-column: 1 / 2;
+    grid-row: 3;
+    text-align: center;
+    align-items: center;
+}
+
+.copyright {
+    grid-column: 2 / 3 ;
+    grid-row: 1;
+    text-align: center;
+    justify-items: center;
+    color: var(--primary-color);
+    font-size: 20px;
+}
