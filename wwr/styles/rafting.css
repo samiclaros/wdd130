@@ -499,4 +499,9 @@ footer {
     grid-column: 3 / 5;
 }
 
+.link-to-contact-us:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
 /* TRIPS WEBSITE */
