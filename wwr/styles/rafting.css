@@ -479,7 +479,7 @@ input[type="radio"] {
     width: auto;
     height: 1400px;
     grid-column: 1 / -1;
-    rotate: 90deg;
+    transform: rotate(90deg);
     position: absolute;
     justify-self: center;
     top: 155px;
@@ -489,7 +489,7 @@ input[type="radio"] {
     width: auto;
     height: 1400px;
     grid-column: 1 / -1;
-    rotate: 90deg;
+    transform: rotate(90deg);
     position: absolute;
     justify-self: center;
     top: 645px;
@@ -499,7 +499,7 @@ input[type="radio"] {
     width: auto;
     height: 1400px;
     grid-column: 1 / -1;
-    rotate: 90deg;
+    transform: rotate(90deg);
     position: absolute;
     justify-self: center;
     top: 1180px;
@@ -514,13 +514,13 @@ footer {
     padding: 1.5rem;
     background-color: var(--nav-background-color);
     margin-top: 2.5rem;
-    grid-template-columns: 300px 1fr 400px;
+    grid-template-columns: 200px 200px 1fr 400px;
 }
 
 .sociallinks {
     display: flex;
     text-decoration: none;
-    grid-column: 3 / 4;
+    grid-column: 4;
     justify-content: center;
     align-items: center;
 }
@@ -540,14 +540,14 @@ footer {
 
 .wireframe06 { /* Only will added for the Wireframe photo */
     display: grid;
-    grid-column: 1 / 2;
-    grid-row: 3;
+    grid-column: 2 / 3;
+    grid-row: 1;
     text-align: center;
     align-items: center;
 }
 
 .copyright {
-    grid-column: 2 / 3 ;
+    grid-column: 3 / 4 ;
     grid-row: 1;
     text-align: center;
     justify-items: center;
