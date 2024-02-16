@@ -303,7 +303,7 @@ form {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.25rem;
     display: flex;
-    flex-direction: column; /* This is what Brother Raplh said */
+    flex-direction: column;
     color: var(--accent1-color);
 }
 
@@ -520,7 +520,8 @@ input[type="radio"] {
 .teaser img {
     display: block;
     width: 100%;
-    height: auto; /* QUESTION: I want to make the image darker, not at 100% but a little bit, because my letters can't see */
+    height: auto;
+    filter: brightness(70%);
 }
 
 /* BIG BACKGROUND */
@@ -530,8 +531,8 @@ input[type="radio"] {
 .teaser-title1 {
     position: absolute;
     font-size: 90px;
-    top: 100px;
-    left: 250px;
+    top: 80px;
+    left: 220px;
     color: rgb(255, 255, 255);
     text-align: center;
     font-weight: 900;
@@ -541,8 +542,8 @@ input[type="radio"] {
 .teaser-title2 {
     position: absolute;
     font-size: 90px;
-    top: 300px;
-    left: 250px;
+    top: 270px;
+    left: 220px;
     color: rgb(255, 255, 255);
     text-align: center;
     font-weight: 900;
@@ -552,8 +553,8 @@ input[type="radio"] {
 .teaser-title3 {
     position: absolute;
     font-size: 90px;
-    top: 500px;
-    left: 250px;
+    top: 460px;
+    left: 220px;
     color: rgb(255, 255, 255);
     text-align: center;
     font-weight: 900;
@@ -562,9 +563,9 @@ input[type="radio"] {
 
 .best {
     position: absolute;
-    font-size: 40px;
-    top: 700px;
-    left: 250px;
+    font-size: 32px;
+    top: 680px;
+    left: 220px;
     color: rgb(255, 255, 255);
     text-align: center;
     font-weight: 900;
@@ -579,7 +580,7 @@ input[type="radio"] {
 .trips-button-home-page {
     position: absolute;
     font-size: 30px;
-    top: 720px;
+    top: 689px;
     left: 900px;
     background-color: var(--primary-color);
     opacity: 75%;
@@ -648,10 +649,13 @@ input[type="radio"] {
 .experiences-form {
     display: grid;
     grid-template-columns:  200px 350px 150px 1fr;
+    padding-left: 2.5rem;
+    justify-items: center;
+    align-items: center;
 }
 
 .experiences-title {
-    margin-top: 0;
+    /* margin-top: 0; */
     margin-bottom: 2rem;
 }
 
@@ -659,7 +663,8 @@ input[type="radio"] {
     width: 200px;
     height: auto;
     grid-column: 1;
-    padding-bottom: 3rem;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
     align-self: center;
     justify-self: center;
 }
@@ -676,7 +681,86 @@ input[type="radio"] {
     grid-column: 2 / 4; /* QUESTION: How can I put this name inside with another paragraph and down of "such an experience" */
 }
 
+.nacha-image{ /*LA FOTO NO SE ACOMODA */
+    width: 200px;
+    height: auto;
+    grid-column: 1;
+    grid-row: 3 / 4;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    align-self: center;
+    justify-self: center;
+}
+
+.nacha-opinion {
+    padding: 1rem;
+    grid-column: 2 / 4;
+    align-self: center;
+    justify-self: center;
+}
+
+.sam-image{
+    width: 200px;
+    height: auto;
+    grid-column: 1;
+    align-self: center;
+    justify-self: center;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.sam-opinion {
+    padding: 1rem;
+    grid-column: 2 / 4;
+    align-self: center;
+    justify-self: center;
+}
+
 /* EXPERIENCES */
+
+/* FORM index.html PAGE */
+
+.form-home-page {
+    /* grid-row: 1 / -1; */
+    grid-row: 1 / 5;
+    grid-column: 4;
+}
+
+.sign-up-message {
+    text-align: center;
+    font-size: 30px;
+    word-spacing: 10px;
+    margin: 1rem;
+}
+
+.form-home {
+    width: 550px;
+    grid-row: 1 / -1;
+    font-size: 25px;
+}
+
+.logo-form {
+    width: 150px;
+    justify-self: center;
+    align-self: center;
+}
+
+.sign-up {
+    font-size: 20px;
+    padding: 1rem;
+    border: none;
+    border-radius: 3rem;
+    margin-top: 2rem;
+    background-color: var(--accent1-color);
+    color: var(--primary-color);
+}
+
+.sign-up:hover{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+/* FORM index.html PAGE */
 
 /* FOOTER */
 
