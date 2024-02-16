@@ -356,6 +356,8 @@ input[type="radio"] {
     color: var(--secondary-color);
 }
 
+/* FORM */
+
 /* TRIPS WEBSITE */
 
 /* TITLE */
@@ -506,6 +508,175 @@ input[type="radio"] {
 }
 
 /* TRIPS WEBSITE */
+
+/* HOME PAGE */
+
+/* BIG BACKGROUND */
+
+.teaser {
+    position: relative;
+}
+
+.teaser img {
+    display: block;
+    width: 100%;
+    height: auto; /* QUESTION: I want to make the image darker, not at 100% but a little bit, because my letters can't see */
+}
+
+/* BIG BACKGROUND */
+
+/* TITLE */
+
+.teaser-title1 {
+    position: absolute;
+    font-size: 90px;
+    top: 100px;
+    left: 250px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: 900;
+    text-shadow: 3px 3px 3px 0px #333;
+}
+
+.teaser-title2 {
+    position: absolute;
+    font-size: 90px;
+    top: 300px;
+    left: 250px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: 900;
+    text-shadow: 3px 3px 3px 0px #333;
+}
+
+.teaser-title3 {
+    position: absolute;
+    font-size: 90px;
+    top: 500px;
+    left: 250px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: 900;
+    text-shadow: 3px 3px 3px 0px #333;
+}
+
+.best {
+    position: absolute;
+    font-size: 40px;
+    top: 700px;
+    left: 250px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: 900;
+    text-shadow: 3px 3px 3px 0px #333;
+}
+
+/* C.T.A BUTTON */
+
+.link-to-trips {
+    color: var(--secondary-color);
+}
+.trips-button-home-page {
+    position: absolute;
+    font-size: 30px;
+    top: 720px;
+    left: 900px;
+    background-color: var(--primary-color);
+    opacity: 75%;
+    padding: 1.5rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    border-radius: 3rem;
+}
+
+.trips-button-home-page:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color); /* QUESTION: Why when I put the mouse over the button, the color not changes */
+}
+
+/* C.T.A BUTTON */
+
+/* PURPOSE AND OFFERINGS */
+
+.purpose-offerings {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.purpose img{
+    width: 650px;
+    grid-column: 1;
+    padding-left: 2.5rem;
+}
+
+.purpose-text {
+    text-align: justify;
+    grid-column: 1;
+    grid-row: 2;
+    max-width: 750px;
+    padding-right: 2.5rem;
+    padding-left: 5rem;
+    font-size: 20px;
+    word-spacing: 10px;
+}
+
+.offerings img {
+    width: 550px;
+    height: 345px;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.offerings-text {
+    text-align: justify;
+    grid-column: 2;
+    grid-row: 2;
+    max-width: 750px;
+    font-size: 20px;
+    word-spacing: 10px;
+    margin: 0;
+    padding-right: 4.5rem;
+    padding-left: 4.5rem;
+}
+
+/* PURPOSE AND OFFERINGS */ 
+
+/* EXPERIENCES */ 
+
+.experiences-form {
+    display: grid;
+    grid-template-columns:  200px 350px 150px 1fr;
+}
+
+.experiences-title {
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+
+.evan-image {
+    width: 200px;
+    height: auto;
+    grid-column: 1;
+    padding-bottom: 3rem;
+    align-self: center;
+    justify-self: center;
+}
+
+.evan-opinion {
+    padding: 1rem;
+    grid-column: 2 / 4;
+    align-self: center;
+    justify-self: center;
+    padding-bottom: 3rem;
+}
+
+.evan {
+    grid-column: 2 / 4; /* QUESTION: How can I put this name inside with another paragraph and down of "such an experience" */
+}
+
+/* EXPERIENCES */
 
 /* FOOTER */
 
