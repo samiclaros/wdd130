@@ -654,11 +654,6 @@ input[type="radio"] {
     align-items: center;
 }
 
-/* .experiences-title {
-    /* margin-top: 0; */
-    /* margin-bottom: 2rem;
-} */
-
 .evan-image {
     width: 200px;
     height: auto;
@@ -758,6 +753,7 @@ input[type="radio"] {
     width: 550px;
     grid-row: 1 / -1;
     font-size: 25px;
+    background-color: rgb(128, 128, 128, 0.1);
 }
 
 .logo-form {
@@ -817,7 +813,7 @@ footer {
 
 .wireframe06 { /* Only will added for the Wireframe photo */
     display: grid;
-    grid-column: 2 / 3;
+    grid-column: 1 / 2;
     grid-row: 1;
     text-align: center;
     align-items: center;
