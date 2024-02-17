@@ -509,7 +509,7 @@ input[type="radio"] {
 }
 
 table {
-    width: 1200px;
+    width: 1250px;
     grid-column: 1 / 3;
     text-align: center;
     font-size: 18px;
@@ -534,7 +534,7 @@ th, td {
     padding: 1rem;
 }
 
-td li {
+ul {
     text-align: left;
 }
 
