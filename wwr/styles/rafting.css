@@ -365,7 +365,6 @@ input[type="radio"] {
 .trips-title {
     text-align: center;
     padding-top: 1.5rem;
-    font-size: 20px;
 }
 
 /* TRIPS BLOCK */
@@ -467,14 +466,15 @@ input[type="radio"] {
     border-radius: 4rem;
     padding: 1.5rem;
     font-family: sans-serif;
-    width: 100%; 
-    grid-column: 3 / 5;
     text-align: center;
+    display: flex;
+    width: fit-content;
+    margin: auto;
 }
 
 .link-to-contact-us:hover {
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
+    background-color: var(--secondary-color);
+    color: var(--primary-color)
 }
 
 .first-line {
@@ -484,7 +484,7 @@ input[type="radio"] {
     transform: rotate(90deg);
     position: absolute;
     justify-self: center;
-    top: 155px;
+    top: 115px;
 }
 
 .second-line {
@@ -494,7 +494,7 @@ input[type="radio"] {
     transform: rotate(90deg);
     position: absolute;
     justify-self: center;
-    top: 645px;
+    top: 605px;
 }
 
 .third-line {
@@ -504,7 +504,7 @@ input[type="radio"] {
     transform: rotate(90deg);
     position: absolute;
     justify-self: center;
-    top: 1180px;
+    top: 1140px;
 }
 
 /* TRIPS WEBSITE */
