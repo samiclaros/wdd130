@@ -821,7 +821,7 @@ footer {
     display: grid;
     padding: 1.5rem;
     background-color: var(--nav-background-color);
-    margin-top: 2.5rem;
+    margin-top: 1.5rem;
     grid-template-columns: 350px 1fr 400px;
 }
 
