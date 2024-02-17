@@ -588,7 +588,7 @@ input[type="radio"] {
 
 .trips-button-home-page:hover {
     background-color: var(--secondary-color);
-    color: var(--primary-color); /* QUESTION: Why when I put the mouse over the button, the color not changes */
+    color: var(--primary-color);
 }
 
 /* C.T.A BUTTON */
@@ -759,7 +759,10 @@ input[type="radio"] {
 }
 
 .sign-up {
-    font-size: 20px;
+    justify-content: center;
+    width: 60%;
+    align-self: center;
+    font-size: 22px;
     padding: 1rem;
     border: none;
     border-radius: 3rem;
